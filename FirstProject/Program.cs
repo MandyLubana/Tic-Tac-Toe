@@ -22,6 +22,7 @@ namespace FirstProject
                     {
                         Console.Write(board[row, col]);
                     }
+                    Console.WriteLine("\n");
                 }
 
                 if (turn % 2 == 0)
