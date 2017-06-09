@@ -10,16 +10,11 @@ namespace FirstProject
     {
         static void Main(string[] args)
         {
-            int age = 12;
-            double garde = 89.9;
-            bool jasleen = true;
-            string talk = "I said string";
-            char iAmALetter = 's';
+            string[,] board = new string[3, 3];
+            for (int turn = 0; turn < 9; turn++)
+            {
 
-            Console.WriteLine(age);
-            Console.ReadKey();
-            Console.WriteLine(talk);
-            Console.ReadKey();
+            }
         }
     }
 }
